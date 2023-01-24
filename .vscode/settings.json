@@ -37,5 +37,14 @@
 
   // TypeScriptの設定
   "typescript.tsdk": "node_modules/typescript/lib",
-  "typescript.enablePromptUseWorkspaceTsdk": true
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+
+  // spell checkerの設定
+  "cSpell.words": [
+    "classname",
+    "fwywd",
+    "nonconstructor",
+    "parens",
+    "tailwindcss"
+  ]
 }
