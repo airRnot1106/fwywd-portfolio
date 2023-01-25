@@ -136,5 +136,6 @@ module.exports = {
         config: 'tailwind.config.cjs',
       },
     ],
+    'tailwindcss/classnames-order': 'off',
   },
 };
