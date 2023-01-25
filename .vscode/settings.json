@@ -41,8 +41,10 @@
 
   // spell checkerの設定
   "cSpell.words": [
+    "airrnot",
     "classname",
     "fwywd",
+    "kikagaku",
     "nonconstructor",
     "parens",
     "tailwindcss"
