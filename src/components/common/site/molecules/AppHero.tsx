@@ -9,7 +9,7 @@ export const AppHero = () => {
         <h1 className="text-4xl font-bold text-white">メインタイトル</h1>
         <h2 className="text-2xl font-bold text-gray-200">サブタイトル</h2>
       </div>
-      <Image src="/hero.png" width="500" height="500" alt="" />
+      <Image src="/hero.png" width="585" height="498" alt="" />
     </Hero>
   );
 };

@@ -15,7 +15,7 @@ export const AboutArticleCard = ({
 }: AboutArticleCardProps) => {
   const image = (
     <div className="grid h-40 place-content-center">
-      <Image src={imageSrc} width="180" height="180" alt="" />
+      <Image src={imageSrc} width="184" height="157" alt="" />
     </div>
   );
 
