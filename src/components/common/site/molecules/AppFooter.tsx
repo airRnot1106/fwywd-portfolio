@@ -13,7 +13,7 @@ export const AppFooter = () => {
       <Image
         src="/logo_white.png"
         width="120"
-        height="120"
+        height="144"
         alt="fwywd"
         className="my-10"
       />

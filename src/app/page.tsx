@@ -116,7 +116,7 @@ export default function Home() {
                 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
               </p>
             </div>
-            <Image src="/future.png" width="500" height="500" alt="" />
+            <Image src="/future.png" width="480" height="251" alt="" />
           </div>
         </div>
       </main>

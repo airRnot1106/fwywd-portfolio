@@ -8,7 +8,7 @@ export const AppHeader = () => {
       <Image
         src="/logo.png"
         width="150"
-        height="150"
+        height="75"
         alt="fwywd"
         className="object-none"
       />
