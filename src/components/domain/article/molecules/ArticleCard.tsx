@@ -17,7 +17,7 @@ export const ArticleCard = ({
 
   return (
     <div
-      className="flex flex-col items-center space-y-5 break-words p-3 [&>*]:leading-10"
+      className="flex flex-col items-center space-y-3 break-words p-3 [&>*]:leading-8"
       style={{ width: `${widthNum}${unit}` }}
     >
       {image}
