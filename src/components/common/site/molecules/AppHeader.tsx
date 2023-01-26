@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 
 import { Header } from '@/components/base/molecules/Header';
 
@@ -14,18 +13,18 @@ export const AppHeader = () => {
         className="object-none"
       />
       <div className="flex items-center space-x-10">
-        <Link href="#about" className="text-xl text-f-green-400">
+        <a href="#about" className="text-xl text-f-green-400">
           ABOUT
-        </Link>
-        <Link href="#skills" className="text-xl text-f-green-400">
+        </a>
+        <a href="#skills" className="text-xl text-f-green-400">
           SKILLS
-        </Link>
-        <Link href="#values" className="text-xl text-f-green-400">
+        </a>
+        <a href="#values" className="text-xl text-f-green-400">
           VALUES
-        </Link>
-        <Link href="#future" className="text-xl text-f-green-400">
+        </a>
+        <a href="#future" className="text-xl text-f-green-400">
           FUTURE
-        </Link>
+        </a>
       </div>
     </Header>
   );
