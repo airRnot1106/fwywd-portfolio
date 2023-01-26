@@ -35,7 +35,10 @@ export default function Home() {
           </AboutArticleCard>
         </AboutArticleList>
       </div>
-      <div className="flex flex-col items-center justify-center">
+      <div
+        id="values"
+        className="flex flex-col items-center justify-center py-14 px-5"
+      >
         <ArticleTitle mainTitle="価値観" subTitle="VALUES" />
         <ValuesArticleList>
           <ValuesArticleCard imageSrc="/value1.png" titleStr="価値観01">
