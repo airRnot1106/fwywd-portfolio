@@ -4,6 +4,8 @@ import { AppHero } from '@/components/common/site/molecules/AppHero';
 import { AboutArticleCard } from '@/components/domain/about/molecules/AboutArticleCard';
 import { AboutArticleList } from '@/components/domain/about/molecules/AboutArticleList';
 import { ArticleTitle } from '@/components/domain/article/atoms/ArticleTitle';
+import { ValuesArticleCard } from '@/components/domain/values/molecules/ValuesArticleCard';
+import { ValuesArticleList } from '@/components/domain/values/molecules/ValuesArticleList';
 
 export default function Home() {
   return (
@@ -32,6 +34,26 @@ export default function Home() {
             </p>
           </AboutArticleCard>
         </AboutArticleList>
+      </div>
+      <div className="flex flex-col items-center justify-center">
+        <ArticleTitle mainTitle="価値観" subTitle="VALUES" />
+        <ValuesArticleList>
+          <ValuesArticleCard imageSrc="/value1.png" titleStr="価値観01">
+            <p className="text-f-black-100">
+              テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            </p>
+          </ValuesArticleCard>
+          <ValuesArticleCard imageSrc="/value2.png" titleStr="価値観02">
+            <p className="text-f-black-100">
+              テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            </p>
+          </ValuesArticleCard>
+          <ValuesArticleCard imageSrc="/value3.png" titleStr="価値観03">
+            <p className="text-f-black-100">
+              テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            </p>
+          </ValuesArticleCard>
+        </ValuesArticleList>
       </div>
       <AppFooter />
     </>
