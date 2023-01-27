@@ -4,18 +4,22 @@ import { ArticleCard } from '@/components/domain/article/molecules/ArticleCard';
 
 interface AboutArticleCardProps {
   imageSrc: string;
+  imageSize: [number, number];
   titleStr: string;
   children: React.ReactNode;
 }
 
 export const AboutArticleCard = ({
   imageSrc,
+  imageSize,
   titleStr,
   children,
 }: AboutArticleCardProps) => {
+  const [width, height] = imageSize;
+
   const image = (
     <div className="grid h-40 place-content-center">
-      <Image src={imageSrc} width="184" height="157" alt="" />
+      <Image src={imageSrc} width={width} height={height} alt="" />
     </div>
   );
 
