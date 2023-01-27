@@ -65,7 +65,9 @@ export default function Home() {
             <div className="w-2/3 space-y-3 break-words">
               <ArticleTitle mainTitle="スキル" subTitle="SKILLS" />
               <p className="leading-8 text-f-black-100">
-                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                主に使用している言語はTypeScriptです。最近はフロントエンドに興味があり、Nuxt3やNext.jsを使っています。また、競技プログラミングのためにC++を勉強しています。
+                <br />
+                2022年に基本情報技術者試験に合格しました。
               </p>
               <SkillsList>
                 <SkillsProgressBar
