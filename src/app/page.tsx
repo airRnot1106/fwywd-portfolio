@@ -101,19 +101,19 @@ export default function Home() {
           >
             <ArticleTitle mainTitle="価値観" subTitle="VALUES" />
             <ValuesArticleList>
-              <ValuesArticleCard imageSrc="/value1.png" titleStr="価値観01">
+              <ValuesArticleCard imageSrc="/value1.png" titleStr="信頼性">
                 <p className="text-f-black-100">
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                  私は信頼性の高い仕事をすることが重要だと考えています。そのため、常に自分の仕事に対して厳密で、細心の注意を払います。また、約束を守り、約束をすることに対しても真摯に取り組みます。
                 </p>
               </ValuesArticleCard>
-              <ValuesArticleCard imageSrc="/value2.png" titleStr="価値観02">
+              <ValuesArticleCard imageSrc="/value2.png" titleStr="アウトプット">
                 <p className="text-f-black-100">
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                  私はアウトプットが好きです。そのため、自分の考えをまとめ、伝えることが好きです。プログラミングにおいても、普段から手順や問題点の解決方法などのアウトプットを行っています。
                 </p>
               </ValuesArticleCard>
-              <ValuesArticleCard imageSrc="/value3.png" titleStr="価値観03">
+              <ValuesArticleCard imageSrc="/value3.png" titleStr="継続的な学習">
                 <p className="text-f-black-100">
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                  私は様々な技術に触れることが好きです。そのため、新しい技術について学ぶことに対しても積極的で、普段から技術ブログや技術書を読むようにし、自分自身をアップグレードするために努力します。
                 </p>
               </ValuesArticleCard>
             </ValuesArticleList>
