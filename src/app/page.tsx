@@ -24,17 +24,29 @@ export default function Home() {
           >
             <ArticleTitle mainTitle="私について" subTitle="ABOUT" />
             <AboutArticleList>
-              <AboutArticleCard imageSrc="/about-1.png" titleStr="趣味">
+              <AboutArticleCard
+                imageSrc="/about-1.png"
+                imageSize={[184, 157]}
+                titleStr="趣味"
+              >
                 <p className="text-f-black-100">
                   テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                 </p>
               </AboutArticleCard>
-              <AboutArticleCard imageSrc="/about-2.png" titleStr="好きな食べ物">
+              <AboutArticleCard
+                imageSrc="/about-2.png"
+                imageSize={[206, 158]}
+                titleStr="好きな食べ物"
+              >
                 <p className="text-f-black-100">
                   テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                 </p>
               </AboutArticleCard>
-              <AboutArticleCard imageSrc="/about-3.png" titleStr="性格">
+              <AboutArticleCard
+                imageSrc="/about-3.png"
+                imageSize={[245, 149]}
+                titleStr="性格"
+              >
                 <p className="text-f-black-100">
                   テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                 </p>
